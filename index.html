@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <style>
+        body {
+            height: 100vh;
+            background-image: url(./340852-top-galaxy-wallpaper-hd-2880x1800.jpg);
+            background-size: contain;
+            color: white;
+
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .main {
+            height: 90%;
+            width: 95%;
+            background-color: rgba(0, 0, 0, .5)
+        }
+
+        .top {
+            height: 10%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, .5);
+            padding: 1%;
+            padding-left: 5%;
+            padding-right: 5%;
+            box-sizing: border-box;
+        }
+
+        .bottom {
+            height: 90%;
+            width: 100%;
+            padding: 1%;
+            padding-left: 5%;
+            padding-right: 5%;
+            box-sizing: border-box;
+        }
+
+        a {
+            color: white;
+        }
+
+        .section {
+            height: 90%;
+            width: 20%;
+            background-color: rgba(0, 0, 0, .8);
+            padding: 2%;
+            text-align: center;
+            margin-right: 2%;
+            margin-left: 2%;
+            border: 2px solid white;
+        }
+
+        img {
+            height: 30%;
+            width: 100%;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        @media (max-width: 680px) {
+
+             body {
+                height: 100%;
+             }
+
+            .bottom {
+                flex-direction: column;
+            }
+
+            .section {
+                height: 10%;
+                width: 100%;
+                padding-bottom: 10%;
+            }
+
+
+            img {
+                height: 200px;
+            }
+        }
+
+    </style>
+</head>
+<body class="center">
+    <div class="main">
+    <div class="top flex" style="justify-content: space-between; align-items: center;">
+        <h1>News</h1>
+        <a href="https://www.nasa.gov/news/">View All News</a>
+    </div>
+    <div class="bottom flex">
+        <div class="section">
+            <img src="./axiom-3-launch-screencap-cropped.webp" alt="Space Station"/>
+            <a href="https://www.nasa.gov/news-release/nasa-partners-to-welcome-private-crew-aboard-space-station/">
+                NASA, Partners to Welcome Private Crew Aboard Space Station
+            </a>
+            <p>As part of NASA’s efforts to enable more access to space, four private astronauts are in orbit following the 
+                successful launch of the third all private astronaut mission to the International Space Station. Axiom Space astronauts 
+                lifted off at 4:49 p.m. 
+                EST on Thursday from Launch Complex 39A at NASA’s Kennedy Space Center in Florida.</p>
+        </div>
+        <div class="section">
+            <img src="./potw2402a-1.webp" alt="Galaxy Merger"/>
+            <a href="https://www.nasa.gov/image-article/hubble-captures-a-monster-merger/">
+                Hubble Captures a Monster Merger
+            </a>
+            <p>This NASA/ESA Hubble Space Telescope image features Arp 122, a peculiar galaxy that in fact comprises two galaxies 
+                – NGC 6040, the tilted, warped spiral galaxy and LEDA 59642, the round, face-on spiral – that are in the midst of a 
+                collision. This dramatic cosmic encounter is located at the very safe distance of roughly 570 million light-years 
+                from Earth.</p>
+        </div>
+        <div class="section">
+            <img src="./fairbanks-32.webp" alt="Wideband Technology"/>
+            <a href="https://www.nasa.gov/news-release/nasa-partners-to-welcome-private-crew-aboard-space-station/">
+                Wideband Technology
+            </a>
+            <p>As NASA’s Tracking and Data Relay Satellite (TDRS) constellation approaches retirement, partnerships with commercial industry
+                 will play a critical role in the development of future space communications and navigation architecture.
+                 Over the next decade, NASA missions will transition towards adopting commercial space-based relay services to fulfil their near-Earth
+                  communications needs. </p>
+        </div>
+        <div class="section">
+            <img src="./streams.webp" alt="Space Station"/>
+            <a href="https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-to-search-for-signs-of-dark-matter-clumps/">
+                NASA’s Roman to Search for Signs of Dark Matter Clumps
+            </a>
+            <p>Some of the finest, smallest details in the universe – the gaps between elongated groups of stars – may soon help astronomers reveal 
+                dark matter in greater detail than ever before. After NASA’s Nancy Grace Roman Space Telescope launches, by May 2027, researchers 
+                will use its images to explore what exists between looping tendrils of stars that are pulled from globular clusters.</p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
